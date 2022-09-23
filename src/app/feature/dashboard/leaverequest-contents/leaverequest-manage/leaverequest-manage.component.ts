@@ -4,7 +4,6 @@ import { Observable, Subject, concat, of } from 'rxjs';
 import { EmployeeLeaveService } from './../../services/employeeLeave.service';
 import { Component, OnInit } from '@angular/core';
 import { LeaveTypeService } from '../../services/leaveType.service';
-import { EmployeeLeave } from '../../model/EmployeeLeave';
 
 @Component({
   selector: 'app-leaverequest-manage',
